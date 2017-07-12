@@ -18,3 +18,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - Change the description.
 - Change the path definition.
 - Moved widget registration to its own method.
+- Changed to latest asset handler - Version 1.0.6 - 2/17/2015 
