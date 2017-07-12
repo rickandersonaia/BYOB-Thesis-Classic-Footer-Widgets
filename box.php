@@ -119,7 +119,7 @@ class byob_simple_classic_footer_widgets extends thesis_box {
 
 	/**
 	 * @return array
-	 * 
+	 *
 	 * of box _ids (which form the basis of a hook name)
 	 */
 	protected function get_hook_ids(){
