@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [2.4.0.1] - 2017-07-15
+### Changed
+- Fixed the path constant
+
 ## [2.4.0.0] - 2017-07-12
 ### Added
 - The widgets now automatically go to the first hook with the word "footer" in it.
