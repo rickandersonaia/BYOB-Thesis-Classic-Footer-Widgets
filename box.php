@@ -4,7 +4,7 @@
 Name: BYOB Simple Footer Widgets for the Thesis Classic Responsive skin
 Author: Rick Anderson - BYOBWebsite.com
 Requires: 2.1
-Version: 2.4
+Version: 2.4.0.1
 Description: Places a row of widgets in the footer in the Thesis Classic Responsive Skin.  It <strong>REQUIRES</strong> Thesis 2.1.  This will generally work in any of the DIYThemes skins, although it may require some custom CSS and may not work in others.
 Class: byob_simple_classic_footer_widgets
 Docs: https://www.byobwebsite.com/addons/thesis-2/boxes/simple-footer-widgets/
@@ -31,7 +31,7 @@ class byob_simple_classic_footer_widgets extends thesis_box {
 	protected function construct() {
 		global $thesis;
 		if(!defined('BYOBSCFW_PATH')){
-			define( 'BYOBSCFW_PATH', __DIR__ );
+			define( 'BYOBSCFW_PATH', THESIS_USER_BOXES . '/' . basename( __DIR__ ) );
 		}
 
 		//  Set up update system
