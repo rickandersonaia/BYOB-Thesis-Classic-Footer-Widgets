@@ -31,7 +31,7 @@ class byob_simple_classic_footer_widgets extends thesis_box {
 	protected function construct() {
 		global $thesis;
 		if(!defined('BYOBSCFW_PATH')){
-			define( 'BYOBSCFW_PATH', THESIS_USER_BOXES . '/' . basename( __DIR__ ) );
+			define( 'BYOBSCFW_PATH', dirname( __FILE__ ) );
 		}
 
 		//  Set up update system
